@@ -1,5 +1,5 @@
 {
-  "name": "rollup-starter-app",
+  "name": "semana-i-app",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "babel-loader": "^8.0.6",
