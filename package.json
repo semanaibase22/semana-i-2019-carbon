@@ -1,0 +1,21 @@
+{
+  "name": "rollup-starter-app",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.0.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "carbonldp": "^5.2.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "npm-run-all --parallel watch start",
+    "start": "serve public",
+    "watch": "webpack --mode development --watch"
+  }
+}
